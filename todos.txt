@@ -5,3 +5,5 @@ fix 2
 Make soup
 Go shopping
 Buy bread
+Master Python
+Master Python 2
