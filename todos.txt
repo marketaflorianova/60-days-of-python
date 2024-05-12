@@ -1,0 +1,7 @@
+go shopping
+hello
+fix 1
+fix 2
+Make soup
+Go shopping
+Buy bread

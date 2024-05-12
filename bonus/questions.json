@@ -1,0 +1,16 @@
+{
+  "question1":
+    {"question_text": "What are dolphins?",
+    "alternatives": [
+      "Fish",
+      "Mammals",
+      "Birds"
+    ],
+    "correct_answer": 2
+  },
+  "question2":
+  {"question_text": "What are dogs?",
+  "alternatives": ["Fish", "Mammals", "Birds"],
+  "correct_answer": 2
+  }
+}
