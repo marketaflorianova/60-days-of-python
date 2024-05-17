@@ -1,9 +1,10 @@
 go shopping
+hi
 hello
-fix 1
-fix 2
-Make soup
-Go shopping
+go grocery shopping
 Buy bread
 Master Python
 Master Python 2
+Add new todo
+Add new todo
+go jogging
