@@ -1,10 +1,10 @@
-go shopping
-hi
-hello
-go grocery shopping
-Buy bread
+Buy more bread
 Master Python
 Master Python 2
 Add new todo
-Add new todo
+1
+111
 go jogging
+Improve the app
+hello
+

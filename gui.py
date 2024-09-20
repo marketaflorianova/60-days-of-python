@@ -1,6 +1,16 @@
 import functions as fn
 import FreeSimpleGUI as sg
 import time
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), 'todolist-venv'))
+print(os.getcwd())
+print(sys.executable)
+
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 sg.theme("DarkPurple3")
 
@@ -11,7 +21,7 @@ add_button = sg.Button(key="Add", size=2, image_source="add.png", tooltip="Add T
 list_box = sg.Listbox(values=fn.get_todos(),
                       key="todos",
                       enable_events=True,
-                      size=[45, 10])
+                      size=(45, 10))
 edit_button = sg.Button("Edit")
 complete_button = sg.Button("Complete")
 exit_button = sg.Button("Exit")
