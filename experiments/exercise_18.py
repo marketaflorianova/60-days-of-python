@@ -33,11 +33,14 @@ while True:
             break
         case sg.WIN_CLOSED:
             break
-    feet = float(values["feet"])
-    inches = float(values["inches"])
+    try:
+        feet = float(values["feet"])
+        inches = float(values["inches"])
+        result = convert(feet, inches)
+        window["output"].update(value=f"{result} m", text_color="white")
+    except ValueError:
+        sg.popup("Please provide two values", font=("Helvetica", 20))
 
-    result = convert(feet, inches)
-    window["output"].update(value=f"{result} m", text_color="white")
 
 
 window.close()
